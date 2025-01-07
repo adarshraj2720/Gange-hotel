@@ -24,7 +24,7 @@ and a convenient location, allowing you to focus on your spiritual journey. </p>
                             </div>
                         </div>
                         <div className="col-xl-8 col-12">
-                            <div className="wpo-service-items">
+                            <div style={{justifyContent:"flex-start"}} className="wpo-service-items">
                                 {Services.map((service, sitem) => (
                                     <div className="wpo-service-item" key={sitem}>
                                         <i className={`fi ${service.fIcon}`}></i>

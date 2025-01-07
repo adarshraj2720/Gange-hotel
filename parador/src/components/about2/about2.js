@@ -22,16 +22,17 @@ const About2 = (props) => {
                             <div className="wpo-about-content">
                                 <div className="about-title">
                                     <span>Exclusive Offer</span>
-                                    <h2>Enjoy Your Dream Vacation In switzerland</h2>
+                                    <h2>Experience Kumbh, Redefined</h2>
                                 </div>
                                 <div className="wpo-about-content-inner">
-                                    <p>There are many variations of passages of Lorem Ipsum available, but the majority
-                                        have suffered alteration in some form, by injected humour, or randomised words
-                                        which don't look even slightly believable. If you are going to use a passage of
-                                        Lorem Ipsum, you need to be sure.</p>
+                                    <p>Super Deluxe Room:Indulge in spacious comfort and modern
+luxury. Our Deluxe Rooms offer a premium experience with a plush
+king-size bed, a flat-screen TV, a cozy seating area, and a lavish
+bathroom. Stay warm with a room heater and enjoy a hot beverage
+with provided tea amenities.</p>
                                     <div className="about-info-wrap">
-                                        <div className="about-info-left">
-                                            <p>2 Days / 3 Night</p>
+                                        {/* <div className="about-info-left">
+                                            <p>4+ Rooms</p>
                                             <ul>
                                                 <li><i className="fa fa-star" aria-hidden="true"></i></li>
                                                 <li><i className="fa fa-star" aria-hidden="true"></i></li>
@@ -39,10 +40,12 @@ const About2 = (props) => {
                                                 <li><i className="fa fa-star" aria-hidden="true"></i></li>
                                                 <li><span><i className="fa fa-star" aria-hidden="true"></i></span></li>
                                             </ul>
-                                        </div>
+                                        </div> */}
                                         <div className="about-info-right">
-                                            <p>Only</p>
-                                            <h3>$2500</h3>
+                                            {/* <p>Only</p> */}
+                                            <h3>Rs 14,999/-
+                                            </h3>
+                                            <p>Including Free Breakfast </p>
                                         </div>
                                     </div>
                                     <Link className="theme-btn" onClick={ClickHandler} to='/room'>Book Now</Link>
